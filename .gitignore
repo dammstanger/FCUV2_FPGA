@@ -1,0 +1,32 @@
+﻿######My config###########
+#see more detail : http://blog.csdn.net/kobesdu/article/details/48975333
+
+#folder
+/db
+/incremental_db
+/simulation
+/greybox_tmp
+\timing
+
+#Output files
+*.rbf
+*.ttf
+
+#Report files
+*.done
+*.qarlog
+*.rpt
+*.summary
+
+#Generated files
+*.cmp
+*.dpf
+*.eqn
+*.jpg
+*.html
+*.pin
+*.ppf
+
+#Backup files
+*.bak
+*.qar
