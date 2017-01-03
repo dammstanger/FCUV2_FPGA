@@ -5,6 +5,7 @@
 初始化参数：分辨率：1600	
 					 帧率：自动 2000-6469f/s （默认）
 					 快门：自动 最大8192			（默认）
+					 输出速率：50Hz
 作	 者：dammstanger
 日	 期：20160810
 *************************************************************************/	
@@ -99,7 +100,7 @@ output [2:0]sta_out
 
 /***************Nms循环计时器 用于采集读取周期控制*******************/
 wire vclk;
-delayNms_cyc_module #(16'd100)delayNms_cyc_module_U1(
+delayNms_cyc_module #(16'd20)delayNms_cyc_module_U1(
 	.CLK( CLK ),
 	.RSTn( RSTn ),
 	.vclk(vclk)

@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EPCS16) Path("E:/FPGA/FPGA_test/EP4CE22F17_goldfinger/FCUV2_0101/") File("FCU_Proj.pof") MfrSpec(OpMask(7) Child_OpMask(1 7));
+		Device PartName(EPCS16) Path("E:/FPGA/FPGA_test/EP4CE22F17_goldfinger/FCUV2_FPGA/") File("FCU_Proj.pof") MfrSpec(OpMask(7) Child_OpMask(1 7));
 
 ChainEnd;
 

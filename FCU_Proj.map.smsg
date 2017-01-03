@@ -1,3 +1,3 @@
-Warning (10268): Verilog HDL information at adns3080_Driver.v(200): always construct contains both blocking and non-blocking assignments
-Warning (10268): Verilog HDL information at adns3080_Driver.v(626): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at adns3080_Driver.v(201): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at adns3080_Driver.v(627): always construct contains both blocking and non-blocking assignments
 Warning (10273): Verilog HDL warning at FSMC_module.v(268): extended using "x" or "z"
